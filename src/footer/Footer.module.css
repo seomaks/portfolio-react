@@ -1,26 +1,28 @@
-.worksBlock {
-    background-color: #ffc5d8;
+.FooterBlock {
+    background-color: indianred;
 }
 
-.worksContainer {
+.FooterContainer {
     flex-direction: column;
     justify-content: flex-start;
+    text-align: center;
 }
 
 .title {
     background-color: #eeeef5;
 }
 
-.works {
+.socialNetworks {
     border: 1px solid;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 @media (max-width: 576px) {
-    .works {
-        justify-content: center;
+    .socialNetworks {
+        flex-direction: row;
+        width: 100%;
     }
 }
