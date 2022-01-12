@@ -6,7 +6,9 @@ function Works() {
   return (
     <div className={style.worksBlock}>
       <div className={`${styleContainer.container} ${style.worksContainer}`}>
-        <h2 className={style.title}>My works</h2>
+        <div className={style.title}>
+          <h2>My works</h2>
+        </div>
         <div className={style.works}>
           <Work title={"ToDoList"} description={"consectetur adipisicing elit. Aspernatur, atque" +
           "  beatae consequatur"} link={"#"}/>
