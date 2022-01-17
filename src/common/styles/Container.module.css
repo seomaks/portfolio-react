@@ -18,3 +18,28 @@
         justify-content: center;
     }
 }
+
+h1 {
+    margin-bottom: 43px;
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 29px;
+    position: relative;
+    text-transform: uppercase;
+    left: -5px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.47;
+    font-family: Jost;
+    color: #0e090d;
+    font-size: 30px;
+}
+

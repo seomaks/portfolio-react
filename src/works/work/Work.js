@@ -1,15 +1,17 @@
 import style from './Work.module.css';
 
-function Skill(props) {
+function Work(props) {
   return (
     <div className={style.work}>
       <div className={style.imgContainer}>
       <a className={style.button} href={props.link}>Watch</a>
       </div>
-      <h3>{props.title}</h3>
+      <div className={style.projectInfo}>
+      <h3 className={style.projectTitle}>{props.title}</h3>
       <span className={style.description}>{props.description}</span>
+      </div>
     </div>
   );
 }
 
-export default Skill;
+export default Work;
