@@ -1,5 +1,5 @@
-import style from './Contacts.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import style from './Contacts.module.scss';
+import styleContainer from "../common/styles/Container.module.scss";
 import Title from "../common/components/title/Title";
 
 function Contacts() {

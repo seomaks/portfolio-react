@@ -1,5 +1,5 @@
-import style from './Main.module.css';
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Main.module.scss';
+import styleContainer from '../common/styles/Container.module.scss'
 
 function Main() {
   return (
@@ -11,7 +11,6 @@ function Main() {
           <p>Frontend Developer</p>
         </div>
         <div className={style.photo}>
-
         </div>
       </div>
     </div>

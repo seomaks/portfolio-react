@@ -1,0 +1,38 @@
+.RemoteWorkBlock {
+  min-height: 30vh;
+  background-color: #ffffff;
+
+  .RemoteWorkContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+    .title {
+      background-color: #eeeef5;
+    }
+
+    .button {
+      font-size: 15px;
+      background-color: grey;
+      color: #fff; /* цвет текста */
+      text-decoration: none; /* убирать подчёркивание у ссылок */
+      user-select: none; /* убирать выделение текста */
+      padding: .7em 1.5em; /* отступ от текста */
+      outline: none; /* убирать контур в Mozilla */
+    }
+
+    a.button:hover {
+      background: rgb(232, 95, 76);
+    }
+
+    a.button:active {
+      background: rgb(152, 15, 0);
+    }
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.FooterBlock {
+  background-color: indianred;
+
+  .FooterContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+    .socialNetworks {
+      border: 1px solid;
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media (max-width: 576px) {
+        flex-direction: row;
+        width: 100%;
+      }
+    }
+  }
+}
+
+

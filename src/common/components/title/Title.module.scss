@@ -1,0 +1,32 @@
+@import 'src/common/styles/sass/variables';
+
+.title {
+    margin-bottom: 43px;
+    margin-top: 30px;
+    position: relative;
+    & h2 {
+        font-family: 'Jost';
+        margin: 0;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 1;
+        padding-bottom: 29px;
+        position: relative;
+        text-transform: uppercase;
+        left: -5px;
+        color: $textColor;
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            width: 200px;
+            height: 10px;
+            background-color: $textColor;
+        }
+    }
+}
+
+
+

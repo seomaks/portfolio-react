@@ -1,5 +1,5 @@
-import style from './Footer.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import style from './Footer.module.scss';
+import styleContainer from "../common/styles/Container.module.scss";
 import SocialNetwork from "./social-network/SocialNetwork";
 import Title from "../common/components/title/Title";
 

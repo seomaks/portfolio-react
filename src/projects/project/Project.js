@@ -1,8 +1,8 @@
-import style from './Work.module.css';
+import style from './Project.module.scss';
 
-function Work(props) {
+function Project(props) {
   return (
-    <div className={style.work}>
+    <div className={style.project}>
       <div className={style.imgContainer} style={props.style}>
       <a className={style.button} href={props.link}>Watch</a>
       </div>
@@ -14,4 +14,4 @@ function Work(props) {
   );
 }
 
-export default Work;
+export default Project;

@@ -1,5 +1,7 @@
+@import 'src/common/styles/sass/variables';
+
 .worksBlock {
-  background-color: white;
+  background-color: $bgColor;
 
   .worksContainer {
     flex-direction: column;

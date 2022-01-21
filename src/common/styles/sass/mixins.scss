@@ -1,0 +1,9 @@
+@import './variables';
+
+@mixin text($fontFamily, $fontSize, $lineHeight, $fontWeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+  font-weight: $fontWeight;
+}

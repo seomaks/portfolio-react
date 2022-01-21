@@ -1,0 +1,55 @@
+.ContactsBlock {
+  background-color: cadetblue;
+
+  .ContactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 50%;
+      margin: 5px;
+      @media (max-width: 576px) {
+        width: 280px;
+      }
+
+      .button {
+        font-size: 15px;
+        background-color: grey;
+        color: #fff;
+        text-decoration: none;
+        user-select: none;
+        padding: .7em 1.5em;
+        outline: none;
+      }
+
+      a.button:hover {
+        background: rgb(232, 95, 76);
+      }
+
+      a.button:active {
+        background: rgb(152, 15, 0);
+      }
+
+      input {
+        width: 97%;
+        margin-bottom: 3px;
+      }
+
+      textarea {
+        width: 97%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .form {
+
+  }
+}

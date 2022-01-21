@@ -1,0 +1,23 @@
+@import 'src/common/styles/sass/variables';
+
+.mainBlock {
+    height: 100vh;
+    background-color: $bgColor;
+    .text {
+        width: 300px;
+    }
+    .photo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        background-image: url('../assets/images/im.jpg');
+        background-position: right;
+    }
+}
+
+
+

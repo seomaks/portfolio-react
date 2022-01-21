@@ -1,4 +1,4 @@
-import style from './SocialNetwork.module.css';
+import style from './SocialNetwork.module.scss';
 
 function SocialNetwork(props) {
   return (

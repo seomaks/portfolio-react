@@ -1,0 +1,90 @@
+@import 'src/common/styles/sass/variables';
+@import 'src/common/styles/sass/mixins';
+
+.project {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  .imgContainer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: $textColor;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.1;
+    }
+
+    .button {
+      position: relative;
+      font-size: 18px;
+      font-family: 'Jost', sans-serif;
+      font-weight: 600;
+      padding: 20px 40px;
+      text-transform: uppercase;
+      line-height: 26px;
+      background-color: $primaryColor;
+      color: $bgColor; /* цвет текста */
+      text-decoration: none; /* убирать подчёркивание у ссылок */
+      user-select: none; /* убирать выделение текста */
+      outline: none; /* убирать контур в Mozilla */
+      border: 2px solid #ffcc0d;
+      z-index: 1;
+    }
+
+    a.button:hover {
+      background: $bgColor;
+      color: $primaryColor;
+      border-color: $primaryColor
+    }
+
+    a.button:active {
+      background: $bgColor;
+      color: $primaryColor;
+      border-color: $primaryColor
+    }
+  }
+
+  .projectInfo {
+    padding: 42px 40px 43px;
+
+    .projectTitle {
+      @include text($titleFontFamily, 30px, 1.47, 600);
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
+
+    .description {
+      @include text($textFontFamily, 22px, 1.37, 400);
+      letter-spacing: 0;
+      word-break: break-word;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
