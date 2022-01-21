@@ -1,0 +1,23 @@
+.worksBlock {
+  background-color: white;
+
+  .worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .works {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media (max-width: 1129px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+

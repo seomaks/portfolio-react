@@ -3,7 +3,7 @@ import style from './Work.module.css';
 function Work(props) {
   return (
     <div className={style.work}>
-      <div className={style.imgContainer}>
+      <div className={style.imgContainer} style={props.style}>
       <a className={style.button} href={props.link}>Watch</a>
       </div>
       <div className={style.projectInfo}>
