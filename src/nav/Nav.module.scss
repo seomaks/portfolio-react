@@ -1,6 +1,15 @@
+@import 'src/common/styles/sass/variables';
+@import 'src/common/styles/sass/mixins';
+
 .nav {
-    border: 1px solid;
-    width: 300px;
-    display: flex;
+    width: 500px;
+    grid-template-columns: repeat(auto-fit, 75px);
+    grid-gap: 20px;
+    display: grid;
     justify-content: space-between;
+    @include text($titleFontFamily, 18px, 1.47, 600);
+    text-transform: uppercase;
+    a {
+        text-decoration: none;
+    }
 }

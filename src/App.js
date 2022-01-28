@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Main />
       <Skills />
-      <Projects />
       <RemoteWork />
+      <Projects />
       <Contacts />
       <Footer />
     </div>

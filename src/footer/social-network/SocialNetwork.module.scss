@@ -1,5 +1,97 @@
-.image {
-    width: 60px;
-    height: 60px;
-    background-color: #eeeef5;
+@import 'src/common/styles/sass/variables';
+
+.icon {
+    background: $bgColor;
+    width: 96px;
+    height: 96px;
+    text-align:center;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
 }
+
+.icon:hover {
+    -webkit-animation-name: Tada;
+    -moz-animation-name: Tada;
+    -o-animation-name: Tada;
+    animation-name: Tada;
+}
+
+@-webkit-keyframes Tada {
+    0% {
+        -webkit-transform:scale(1)
+    }
+    10%, 20% {
+        -webkit-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -webkit-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -webkit-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -webkit-transform:scale(1) rotate(0)
+    }
+}
+@-moz-keyframes Tada {
+    0% {
+        -moz-transform:scale(1)
+    }
+    10%,20% {
+        -moz-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -moz-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -moz-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -moz-transform:scale(1) rotate(0)
+    }
+}
+@-o-keyframes Tada {
+    0% {
+        -o-transform:scale(1)
+    }
+    10%,20% {
+        -o-transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        -o-transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        -o-transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        -o-transform:scale(1) rotate(0)
+    }
+}
+@keyframes Tada {
+    0% {
+        transform:scale(1)
+    }
+    10%, 20% {
+        transform:scale(0.9) rotate(-3deg)
+    }
+    30%, 50%, 70%, 90% {
+        transform:scale(1.1) rotate(3deg)
+    }
+    40%, 60%, 80% {
+        transform:scale(1.1) rotate(-3deg)
+    }
+    100% {
+        transform:scale(1) rotate(0)
+    }
+}
+
+

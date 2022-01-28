@@ -1,13 +1,12 @@
 .FooterBlock {
-  background-color: indianred;
 
   .FooterContainer {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+    width: 100%;
 
     .socialNetworks {
-      border: 1px solid;
       width: 60%;
       display: flex;
       justify-content: space-between;

@@ -11,7 +11,7 @@ function Contacts() {
           <input type="text" name=""/>
           <input type="text" name=""/>
           <textarea cols="30" rows="5"> </textarea>
-          <a className={style.button} href={"#"}>Submit</a>
+          <a className={styleContainer.button} href={"#"}>Send</a>
         </form>
       </div>
     </div>

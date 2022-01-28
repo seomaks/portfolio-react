@@ -30,53 +30,23 @@
       opacity: 0.1;
     }
 
-    .button {
-      position: relative;
-      font-size: 18px;
-      font-family: 'Jost', sans-serif;
-      font-weight: 600;
-      padding: 20px 40px;
-      text-transform: uppercase;
-      line-height: 26px;
-      background-color: $primaryColor;
-      color: $bgColor; /* цвет текста */
-      text-decoration: none; /* убирать подчёркивание у ссылок */
-      user-select: none; /* убирать выделение текста */
-      outline: none; /* убирать контур в Mozilla */
-      border: 2px solid #ffcc0d;
-      z-index: 1;
-    }
+    .projectInfo {
+      padding: 42px 40px 43px;
 
-    a.button:hover {
-      background: $bgColor;
-      color: $primaryColor;
-      border-color: $primaryColor
-    }
+      .projectTitle {
+        @include text($titleFontFamily, 30px, 1.47, 600);
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
 
-    a.button:active {
-      background: $bgColor;
-      color: $primaryColor;
-      border-color: $primaryColor
-    }
-  }
-
-  .projectInfo {
-    padding: 42px 40px 43px;
-
-    .projectTitle {
-      @include text($titleFontFamily, 30px, 1.47, 600);
-      letter-spacing: 1px;
-      margin-bottom: 15px;
-    }
-
-    .description {
-      @include text($textFontFamily, 22px, 1.37, 400);
-      letter-spacing: 0;
-      word-break: break-word;
+      .description {
+        @include text($textFontFamily, 22px, 1.37, 400);
+        letter-spacing: 0;
+        word-break: break-word;
+      }
     }
   }
 }
-
 
 
 

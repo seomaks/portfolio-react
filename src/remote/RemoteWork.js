@@ -5,8 +5,8 @@ function RemoteWork() {
   return (
     <div className={style.RemoteWorkBlock}>
       <div className={`${styleContainer.container} ${style.RemoteWorkContainer}`}>
-        <h3 className={style.title}>Considering options for remote work </h3>
-        <a className={style.button} href={"#"}>Watch</a>
+        <h3 className={style.title}>I have a lot of remote work experience!</h3>
+        <a className={styleContainer.button} href={"#"}>Watch</a>
       </div>
       </div>
   );

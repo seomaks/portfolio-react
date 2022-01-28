@@ -1,23 +1,52 @@
 @import 'src/common/styles/sass/variables';
 
 .mainBlock {
-    height: 100vh;
-    background-color: $bgColor;
-    .text {
-        width: 300px;
-    }
-    .photo {
-        position: relative;
+  height: 100vh;
+  background-color: $bgColor;
+
+  .lefSide {
+    width: 50%;
+  }
+
+    .rightSide {
+      position: relative;
+      width: 45%;
+      height: 80%; /* Размеры */
+      background: $bgColor; /* Цвет фона */
+      outline: 10px solid $textColor; /* Чёрная рамка */
+      border: 5px solid $bgColor; /* Белая рамка */
+      border-radius: 0px; /* Радиус скругления */
+      margin-right: 20px;
+      z-index: 1;
+      .photo {
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-size: cover;
-        width: 50%;
+        background-size: 80% auto;
+        width: 100%;
         height: 100%;
         background-image: url('../assets/images/im.jpg');
-        background-position: right;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 100;
+        background-color: $bgColor;
+      }
+      .rectangle {
+        position: absolute;
+        z-index: -1;
+        background: $primaryColor;
+        width: 120%;
+        height: 80%;
+        opacity: 0.99;
+        float: right;
+        left: 50%;
+        margin-left: -340px;
+        margin-top: 5%;
+      }
     }
-}
+  }
+
 
 
 

@@ -2,9 +2,7 @@ import style from './SocialNetwork.module.scss';
 
 function SocialNetwork(props) {
   return (
-      <a className={style.image}>
-        {props.link}
-      </a>
+      <a href={props.link} className={style.icon} style={props.style}/>
   );
 }
 

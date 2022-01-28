@@ -1,14 +1,15 @@
+@import 'src/common/styles/sass/variables';
+
 .RemoteWorkBlock {
   min-height: 30vh;
-  background-color: #ffffff;
 
   .RemoteWorkContainer {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+    background-color: $bgSecondColor;
 
     .title {
-      background-color: #eeeef5;
     }
 
     .button {
