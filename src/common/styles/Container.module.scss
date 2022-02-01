@@ -40,6 +40,10 @@ h1 {
     position: relative;
     text-transform: uppercase;
     left: -5px;
+    @media (max-width: 576px) {
+        justify-content: center;
+        font-size: 45px;
+    }
     &:after {
         content: '';
         position: absolute;

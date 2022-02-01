@@ -10,17 +10,10 @@ function Main() {
           <p>You'll love REACT as much as I love it...</p>
           <span>Maks Voevodin</span>
         </div>
-
-
         <div className={style.rightSide}>
-
           <div className={style.photo}></div>
           <div className={style.rectangle}></div>
-
-
         </div>
-
-
         </div>
       </div>
   );
