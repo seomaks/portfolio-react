@@ -2,12 +2,15 @@
 @import 'src/common/styles/sass/mixins';
 
 .project {
-  width: 580px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 20px;
+  @media (max-width: 1129px) {
+    width: 100%;
+  }
 
   .imgContainer {
     position: relative;

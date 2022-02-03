@@ -13,6 +13,8 @@
     flex-wrap: wrap;
     @media (max-width: 1200px) {
       justify-content: center;
+      width: 100%;
+      text-align: center;
     }
   }
 
@@ -45,8 +47,9 @@
         background-repeat: no-repeat;
         z-index: 100;
         background-color: $bgColor;
-        @media (max-width: 1200px) {
-          background-size: 40% auto;
+        @media only screen and (max-width: 1200px) and (min-width: 600px){
+          background-size: cover;
+          background-position-y: 20%;
         }
       }
       .rectangle {
@@ -60,6 +63,9 @@
         left: 50%;
         margin-left: -340px;
         margin-top: 5%;
+        @media (max-width: 1200px) {
+          width: 100%;
+        }
       }
     }
   }

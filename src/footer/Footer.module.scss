@@ -5,6 +5,9 @@
     justify-content: flex-start;
     text-align: center;
     width: 100%;
+    @media (max-width: 640px) {
+      width: 60%;
+    }
 
     .socialNetworks {
       width: 60%;
@@ -14,6 +17,7 @@
       @media (max-width: 576px) {
         flex-direction: row;
         width: 100%;
+        justify-content: center;
       }
     }
   }
