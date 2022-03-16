@@ -1,12 +1,12 @@
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss'
 import Particles from "react-tsparticles";
+import Fade from 'react-reveal/Fade';
 
 function Main() {
 
   return (
     <div className={style.mainBlock}>
-
       <Particles
         params={{
           fullScreen: { enable: false },
@@ -26,18 +26,19 @@ function Main() {
           }
         }}
       />
-
-
       <div className={styleContainer.container}>
+        <Fade top>
         <div className={style.lefSide}>
           <h1>Frontend Developer</h1>
           <p>You'll love REACT as much as I love it...</p>
           <span>Maks Voevodin</span>
         </div>
         <div className={style.rightSide}>
-          <div className={style.photo}></div>
+          <div className={style.photo}>
+          </div>
         </div>
-        </div>
+        </Fade>
+      </div>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Project from './project/Project';
 import Title from '../common/components/title/Title';
 import todoImage from './../assets/images/todolists.jpg'
 import socialNetworkImage from './../assets/images/social.jpg'
+import Fade from 'react-reveal/Fade';
 
 function Projects() {
 
@@ -17,6 +18,7 @@ function Projects() {
 
   return (
     <div className={style.worksBlock}>
+      <Fade left>
       <div className={`${styleContainer.container} ${style.worksContainer}`}>
        <Title text={"My projects"}/>
         <div className={style.works}>
@@ -26,6 +28,7 @@ function Projects() {
           "  beatae consequatur"} link={"#"}/>
         </div>
       </div>
+      </Fade>
     </div>
   );
 }

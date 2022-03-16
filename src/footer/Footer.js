@@ -6,6 +6,7 @@ import facebookIco from "../assets/icons/facebook.svg";
 import linkedinIco from "../assets/icons/linkedin.svg";
 import telegramIco from "../assets/icons/telegram.svg";
 import skypeIco from "../assets/icons/skype.svg";
+import Fade from 'react-reveal/Fade';
 
 function Footer() {
   const facebookIcon = {
@@ -24,6 +25,7 @@ function Footer() {
 
   return (
     <div className={style.FooterBlock}>
+      <Fade bottom>
       <div className={`${styleContainer.container} ${style.FooterContainer}`}>
         <Title text={"Maksim Voevodin"}/>
         <div className={style.socialNetworks}>
@@ -34,6 +36,7 @@ function Footer() {
         </div>
         <div>© All rights reserved</div>
       </div>
+      </Fade>
       </div>
   );
 }

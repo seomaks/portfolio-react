@@ -4,6 +4,7 @@
 .nav {
     width: 500px;
     grid-template-columns: repeat(auto-fit, 75px);
+    z-index: 2;
     grid-gap: 20px;
     display: grid;
     justify-content: space-between;

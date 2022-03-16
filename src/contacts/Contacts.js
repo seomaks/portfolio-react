@@ -1,10 +1,12 @@
 import style from './Contacts.module.scss';
 import styleContainer from "../common/styles/Container.module.scss";
 import Title from "../common/components/title/Title";
+import Fade from 'react-reveal/Fade';
 
 function Contacts() {
   return (
     <div className={style.ContactsBlock}>
+      <Fade left>
       <div className={`${styleContainer.container} ${style.ContactsContainer}`}>
         <Title text={"Contacts"}/>
         <form action={"#"} className={style.form}>
@@ -14,6 +16,7 @@ function Contacts() {
           <a className={styleContainer.button} href={"#"}>Send</a>
         </form>
       </div>
+      </Fade>
     </div>
   );
 }

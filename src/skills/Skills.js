@@ -5,6 +5,7 @@ import Title from "../common/components/title/Title";
 import reactIco from './../assets/icons/react.svg'
 import reduxIco from './../assets/icons/redux.svg'
 import jsIco from './../assets/icons/js.svg'
+import Fade from 'react-reveal/Fade';
 
 function Skills() {
 
@@ -20,6 +21,7 @@ function Skills() {
 
   return (
     <div className={style.skillsBlock}>
+      <Fade left>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Title text={"Skills"}/>
         <div className={style.skills}>
@@ -31,6 +33,7 @@ function Skills() {
             "  beatae consequatur"} style={reduxIcon}/>
         </div>
       </div>
+      </Fade>
     </div>
   );
 }
