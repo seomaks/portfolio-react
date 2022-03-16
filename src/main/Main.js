@@ -29,17 +29,17 @@ function Main() {
       />
       <div className={styleContainer.container}>
         <Fade top>
-        <div className={style.lefSide}>
-          <h1>Frontend Developer</h1>
-          <ReactTypingEffect
-            text={["You'll love REACT as much as I love it..."]}
-          />
-          <p>Maks Voevodin</p>
-        </div>
-        <div className={style.rightSide}>
-          <div className={style.photo}>
+          <div className={style.lefSide}>
+            <h1>Frontend Developer</h1>
+            <ReactTypingEffect
+              text={["You'll love REACT as much as I love it..."]}
+            />
+            <p>Maks Voevodin</p>
           </div>
-        </div>
+          <div className={style.rightSide}>
+            <div className={style.photo}>
+            </div>
+          </div>
         </Fade>
       </div>
     </div>

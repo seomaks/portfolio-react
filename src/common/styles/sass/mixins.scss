@@ -7,3 +7,9 @@
   color: $textColor;
   font-weight: $fontWeight;
 }
+
+@mixin bgSettings() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
