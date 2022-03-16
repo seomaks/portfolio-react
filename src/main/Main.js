@@ -1,9 +1,33 @@
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss'
+import Particles from "react-tsparticles";
 
 function Main() {
+
   return (
     <div className={style.mainBlock}>
+
+      <Particles
+        params={{
+          fullScreen: { enable: false },
+          fpsLimit: 60,
+          particles: {
+            color: {
+              value: "#ffcc0d"
+            },
+            links: {
+              enable: true,
+              color: "#ffcc0d",
+              distance: 150
+            },
+            move: {
+              enable: true
+            }
+          }
+        }}
+      />
+
+
       <div className={styleContainer.container}>
         <div className={style.lefSide}>
           <h1>Frontend Developer</h1>
@@ -12,10 +36,9 @@ function Main() {
         </div>
         <div className={style.rightSide}>
           <div className={style.photo}></div>
-          <div className={style.rectangle}></div>
         </div>
         </div>
-      </div>
+    </div>
   );
 }
 
