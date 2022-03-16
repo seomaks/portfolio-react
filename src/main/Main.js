@@ -2,6 +2,7 @@ import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss'
 import Particles from "react-tsparticles";
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 function Main() {
 
@@ -30,8 +31,10 @@ function Main() {
         <Fade top>
         <div className={style.lefSide}>
           <h1>Frontend Developer</h1>
-          <p>You'll love REACT as much as I love it...</p>
-          <span>Maks Voevodin</span>
+          <ReactTypingEffect
+            text={["You'll love REACT as much as I love it..."]}
+          />
+          <p>Maks Voevodin</p>
         </div>
         <div className={style.rightSide}>
           <div className={style.photo}>
