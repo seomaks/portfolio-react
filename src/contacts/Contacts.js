@@ -5,17 +5,18 @@ import Fade from 'react-reveal/Fade';
 
 function Contacts() {
   return (
-    <div id="contacts" className={style.ContactsBlock}>
+    <div id="contacts" className={style.contactsBlock}>
       <Fade left>
-      <div className={`${styleContainer.container} ${style.ContactsContainer}`}>
-        <Title text={"Contacts"}/>
-        <form action={"#"} className={style.form}>
-          <input type="text" name=""/>
-          <input type="text" name=""/>
-          <textarea cols="30" rows="5"> </textarea>
-          <a className={styleContainer.button} href={"#"}>Send</a>
-        </form>
-      </div>
+        <div className={style.container}>
+          <Title text={"Contacts"}/>
+          <form className={style.form}>
+            <input type="text" className={style.formArea} placeholder="Name"/>
+            <input type="text" className={style.formArea} placeholder="e-mail"/>
+            <textarea className={style.messageArea} placeholder="Message"/>
+            <button className={styleContainer.button} type="submit">Send
+            </button>
+          </form>
+        </div>
       </Fade>
     </div>
   );
