@@ -1,0 +1,31 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.nav {
+  width: 500px;
+  grid-template-columns: repeat(auto-fit, 75px);
+  z-index: 2;
+  grid-gap: 20px;
+  display: grid;
+  justify-content: space-between;
+  @include text($titleFontFamily, 18px, 1.47, 600);
+  text-transform: uppercase;
+  @media (max-width: 576px) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .active {
+    color: $textColor;
+  }
+}
