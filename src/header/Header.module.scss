@@ -2,8 +2,12 @@
 
 .header {
     height: 80px;
+    width: 100%;
+    padding-right: 3%;
     background-color: $primaryColor;
     display: flex;
+    position: fixed;
     justify-content: flex-end;
     align-items: center;
+    z-index: 2;
 }

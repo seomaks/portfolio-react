@@ -20,7 +20,7 @@ function Skills() {
   }
 
   return (
-    <div className={style.skillsBlock}>
+    <div id="skills" className={style.skillsBlock}>
       <Fade left>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Title text={"Skills"}/>

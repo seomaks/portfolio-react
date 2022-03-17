@@ -18,5 +18,9 @@
     }
     a {
         text-decoration: none;
+        cursor: pointer;
+    }
+    .active {
+        color: $textColor;
     }
 }

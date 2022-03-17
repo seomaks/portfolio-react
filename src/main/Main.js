@@ -7,7 +7,7 @@ import ReactTypingEffect from 'react-typing-effect';
 function Main() {
 
   return (
-    <div className={style.mainBlock}>
+    <div id="main" className={style.mainBlock}>
       <Particles
         params={{
           fullScreen: { enable: false },
