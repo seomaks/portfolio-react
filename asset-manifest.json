@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.e9231bbd.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.334f4f01.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.334f4f01.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.0ae5b8d4.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.c1eb6cba.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c1eb6cba.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.e2e8dbce.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.e2e8dbce.js.map",
     "static/js/2.ae1e6a7b.chunk.js": "/portfolio-react/static/js/2.ae1e6a7b.chunk.js",
@@ -12,23 +12,25 @@
     "static/js/4.3725d8dc.chunk.js": "/portfolio-react/static/js/4.3725d8dc.chunk.js",
     "static/js/4.3725d8dc.chunk.js.map": "/portfolio-react/static/js/4.3725d8dc.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.e9231bbd.chunk.css.map": "/portfolio-react/static/css/main.e9231bbd.chunk.css.map",
+    "static/css/main.0ae5b8d4.chunk.css.map": "/portfolio-react/static/css/main.0ae5b8d4.chunk.css.map",
     "static/js/2.ae1e6a7b.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.ae1e6a7b.chunk.js.LICENSE.txt",
     "static/media/facebook.8bd7076b.svg": "/portfolio-react/static/media/facebook.8bd7076b.svg",
     "static/media/Main.module.scss": "/portfolio-react/static/media/im.4087b2bb.jpg",
     "static/media/js.bc638e9b.svg": "/portfolio-react/static/media/js.bc638e9b.svg",
     "static/media/linkedin.1f3d78ca.svg": "/portfolio-react/static/media/linkedin.1f3d78ca.svg",
+    "static/media/links-checker.2d8c3e12.jpg": "/portfolio-react/static/media/links-checker.2d8c3e12.jpg",
     "static/media/react.78f5c905.svg": "/portfolio-react/static/media/react.78f5c905.svg",
     "static/media/redux.8c31cba1.svg": "/portfolio-react/static/media/redux.8c31cba1.svg",
     "static/media/skype.eee9dc5e.svg": "/portfolio-react/static/media/skype.eee9dc5e.svg",
     "static/media/social.43d5664b.jpg": "/portfolio-react/static/media/social.43d5664b.jpg",
     "static/media/telegram.c18cbca2.svg": "/portfolio-react/static/media/telegram.c18cbca2.svg",
-    "static/media/todolists.5b3a4baa.jpg": "/portfolio-react/static/media/todolists.5b3a4baa.jpg"
+    "static/media/todolists.5b3a4baa.jpg": "/portfolio-react/static/media/todolists.5b3a4baa.jpg",
+    "static/media/words.b32bc14b.jpg": "/portfolio-react/static/media/words.b32bc14b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2e8dbce.js",
     "static/js/2.ae1e6a7b.chunk.js",
-    "static/css/main.e9231bbd.chunk.css",
-    "static/js/main.334f4f01.chunk.js"
+    "static/css/main.0ae5b8d4.chunk.css",
+    "static/js/main.c1eb6cba.chunk.js"
   ]
 }
