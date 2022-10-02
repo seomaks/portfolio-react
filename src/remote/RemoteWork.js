@@ -7,8 +7,9 @@ function RemoteWork() {
     <div className={style.RemoteWorkBlock}>
       <Fade left>
       <div className={`${styleContainer.container} ${style.RemoteWorkContainer}`}>
-        <h3 className={style.title}>I have a lot of remote work experience!</h3>
-        <a className={styleContainer.button} href={"#"}>Hire Me</a>
+        <h3 className={style.title}>About me</h3>
+        <p>I am a web developer specializing in front-end development. Experience with JavaScript, React, Redux, TypeScript, HTML5, CSS.</p>
+        <a className={styleContainer.button} href={"https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1S29kS6u4iT0XRTu-3QabJ2u6eZs7dAbd"}>Download my CV</a>
       </div>
       </Fade>
       </div>

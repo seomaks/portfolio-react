@@ -25,7 +25,7 @@ function Contacts() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.post("https://smtp-nodejs-mail.herokuapp.com/sendMessage", {
+      axios.post("https://smtp-mail-sendler.herokuapp.com/send", {
       name: name,
       email: email,
       message: message

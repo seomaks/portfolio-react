@@ -14,11 +14,11 @@ function Main() {
           fpsLimit: 60,
           particles: {
             color: {
-              value: "#ffcc0d"
+              value: "#6667ab"
             },
             links: {
               enable: true,
-              color: "#ffcc0d",
+              color: "#6667ab",
               distance: 150
             },
             move: {

@@ -25,12 +25,9 @@ function Skills() {
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
         <Title text={"Skills"}/>
         <div className={style.skills}>
-          <Skill title={"JS"} description={"consectetur adipisicing elit. Aspernatur, atque" +
-          "  beatae consequatur"} style={jsIcon}/>
-          <Skill title={"React"} description={"Lorem ipsum dolor sit Aspernatur, atque" +
-          "  beatae consequatur"} style={reactIcon}/>
-          <Skill title={"Redux"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, atque" +
-            "  beatae consequatur"} style={reduxIcon}/>
+          <Skill title={"JS"} description={""} style={jsIcon}/>
+          <Skill title={"React"} description={""} style={reactIcon}/>
+          <Skill title={"Redux"} description={""} style={reduxIcon}/>
         </div>
       </div>
       </Fade>

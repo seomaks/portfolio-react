@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <RemoteWork />
       <Projects />
-      <Contacts />
+      {/*<Contacts />*/}
       <Footer />
     </div>
   );
