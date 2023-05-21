@@ -38,7 +38,7 @@ function Footer() {
           <SocialNetwork link={"mailto:m.voevodin88@gmail.com"} style={emailIcon}/>
           <SocialNetwork link={"https://www.linkedin.com/in/maks-voevodin/"} style={linkedinIcon}/>
           <SocialNetwork link={"http://t-do.ru/voevodin88"} style={telegramIcon}/>
-          <SocialNetwork link={"skype:nu_meck"} style={skypeIcon}/>
+          <SocialNetwork link={"skype:nu_meck?chat"} style={skypeIcon}/>
         </div>
         <div>© Maksim Voevodin - 2022</div>
       </div>
